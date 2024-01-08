@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>createAsite</title>
+</head>
+<style>
+    .mode{
+        width:70vw;
+        height: 100vw;
+        background-color:rgba(237, 241, 185, 0.966) rgb(227, 189, 235) ;
+        display: flex;
+        justify-content: center;
+        padding-top: 2vw;
+        color:darkseagreen;
+        font-size: 2.5vw;
+        font-family: ;
+
+    }
+    .mode1{
+        display: flex;
+        justify-content: center;
+    }
+    .mode3{
+        width: 45vw;
+        height: 5vw;
+        background-color: cornsilk;
+        margin-top: 5vw;
+    }
+    .mode4{
+        width: 50vw;
+        height: 5vw;
+        background-color: rgb(224, 206, 247);
+        margin-top: -5vw;
+        color:black;
+        font-size: 3vw;
+        padding-left: 15vw;
+    }
+    .mode5{
+        width: 20vw;
+        height: 4vw;
+        font-size: 2.5vw;
+        background-color:rgb(169, 199, 169);
+        margin-top: -8vw;
+        margin-left: 30vw;
+       
+    }
+    .mode7{
+        
+        margin-left: 11vw;
+        padding-left: 8vw;
+        width: 70vw;
+        height: 7vw;
+        text-shadow: 3px 4px 8px black;
+        font-size: 5vw;
+        color: beige;
+        background-color:darkseagreen;
+        z-index: 2;
+
+    }
+    .mode0{
+        width: 50vw;
+        height: 42vw;
+        font-size: 2vw;
+        color:black;
+        background-color: bisque;
+    }
+    .mode01{
+       margin-top: 3vw;
+    }
+    .mode6{
+        display: flex;
+        justify-content: center;
+        margin-top: 5vw;
+    }
+    
+</style>
+<body >
+    <div class="mode7">
+        creation d'un site !!
+        
+    </div>
+    
+    <div class="mode1">
+        
+    <div class="mode">
+        
+        <form action="http://www.fock.com/cgi-bin/recupere.cgi" method="get">
+           <div class="mode3">Server Name</div> <br>
+            <input type="text" class="mode4" name="vari1" placeholder="mirella.com" required></di><br>
+           <div class="mode3"> Server Admin</div><br>
+          <input type="text" name="vari2" class="mode4" placeholder="webmaster@localhost" required>
+          <div class="mode3"> DocumentRoot</div><br>
+          <input type="text" name="vari3" class="mode4" placeholder="/home/misa/rep_mirella" required>
+          <div class="mode3"> Configuration du DocumentRoot</div><br>
+          <div class="mode0">
+            <center>Options:</center><br>
+            <input type="checkbox" id="+Indexes" name="rad" value="+Indexes">
+            <label for="option2">+Indexes</label><br>
+            <input type="checkbox" id="+FollowSymLinks" name="rad" value="+FollowSymLinks">
+            <label for="option1">+FollowSymLinks</label><br>
+            <input type="checkbox" id="+ExecCGI" name="rad" value="+ExecCGI">
+            <label for="option2">+ExecCGI</label><br>
+           
+        <center> AddHandler:</center>
+           <br> <input type="checkbox" id="cgi-script .cgi" name="chek" value="cgi-script .cgi">
+            <label for="option0"> cgi-script .cgi</label><br>
+            <!--input type="checkbox" id=".js" name="chek" value=".js">
+            <label for="optio2"> .js</label><br>
+            <input type="checkbox" id=".perl" name="chek" value=".perl">
+            <label for="optio3"> .perl</label-->
+            
+            <div class="mode01">
+                AllowOverride:
+                <select name="op">
+                <option value="All" >All</option>
+                <option value="None">None</option>
+                
+            </select>
+            <div class="mode01">
+                Require:
+                <select name="opp">
+                <option value="all granted" >all granted</option>
+                <option value="valid-user">valid-user</option>
+                
+            </select>
+            </div>
+        </div>
+        
+
+           
+            <div class="mode6" ><input type="submit" class="mode5" value="create" ></div>
+        </form>
+    </div>
+</div>
+</body>
+</html>
+
+
+
+
+
+

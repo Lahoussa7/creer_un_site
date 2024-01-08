@@ -1,0 +1,23 @@
+.decor{
+    width: 70vw;
+    height: 30vw;
+    border-radius: 30%;
+    border: dashed rgb(100, 4, 4);
+    background-color: rgba(230, 77, 77, 0.801);
+
+    color: aliceblue;
+    padding-top:15vw ;
+    font-size: 4vw;
+    padding-left: 4vw;
+    box-shadow:10px 10px 10px #e434a1;
+    text-shadow: 10px 7px 10px #35192a;;
+    
+
+}
+.centre{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: -moz-linear-gradient(to right,rgb(118, 188, 235),white,pink);
+    
+}
